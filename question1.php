@@ -7,7 +7,6 @@ echo "Populating array with 100000000 random numbers..\n\n";
 $start_memory = memory_get_usage();
 printf("Checkpoint 1: Memory Usage %f bytes\n", $start_memory);
 
-$array = [];
 
 for( $i = 0; $i <= 100000000; $i++ ){
 	
